@@ -1,0 +1,101 @@
+/* Box Model */
+
+* {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+}
+
+/* Remove Scrollbar */
+
+::-webkit-scrollbar { 
+    display: none;
+    width: 0px;
+    background: transparent;
+}
+
+/* Clear Fix Hack */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+/* Elements */
+
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+html, body {
+    min-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    overflow: auto;
+    text-align: center;
+}
+
+/* SVGs */
+
+#logo {
+	width: 320px;
+	height: 320px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	#logo {
+		width: 240px;
+		height: 240px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#logo {
+		width: 160px;
+		height: 160px;
+	}
+}
+
+/* IDs */
+
+#wrapper {
+	margin: auto;
+	padding: 180px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (min-width: 1280px) {
+	#wrapper {
+		padding: 180px;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	#wrapper {
+		padding: 120px;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#wrapper {
+		padding: 90px;
+		width: 100%;
+	}
+}

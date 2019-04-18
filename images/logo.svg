@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <g id="Smiles-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D" transform="translate(-920.000000, -1190.000000)" fill="#000000">
+            <g id="logo" transform="translate(920.000000, 1190.000000)">
+                <path d="M60,120 C26.862915,120 0,93.137085 0,60 C0,26.862915 26.862915,0 60,0 C93.137085,0 120,26.862915 120,60 C120,93.137085 93.137085,120 60,120 Z M60,112 C88.718807,112 112,88.718807 112,60 C112,31.281193 88.718807,8 60,8 C31.281193,8 8,31.281193 8,60 C8,88.718807 31.281193,112 60,112 Z" id="face"></path>
+                <path d="M48,110 C61.254834,110 72,98.3594035 72,84 C72,69.6405965 61.254834,58 48,58 C48,58.3352872 48,110 48,110 Z" id="mouth" transform="translate(60.000000, 84.000000) rotate(90.000000) translate(-60.000000, -84.000000) "></path>
+                <circle id="eyeleft" cx="40" cy="48" r="8"></circle>
+                <circle id="eyeright" cx="80" cy="48" r="8"></circle>
+            </g>
+        </g>
+        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="3s" repeatCount="indefinite"/>
+    </g>
+</svg>
