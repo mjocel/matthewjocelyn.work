@@ -22,8 +22,8 @@
 a, a:link, a:visited {
 	text-decoration:none;
 	color:inherit;
-	background-color:#ffffff;
-	background-color:#FFFF00;
+	color:#000000;
+	background-color:#ffff00;
 }
 
 a:hover, a:active {
